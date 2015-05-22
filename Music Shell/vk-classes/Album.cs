@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Music_Shell
 {
-    class Album
+    public class Album
     {
         public string album_id;
         public string owner_id;

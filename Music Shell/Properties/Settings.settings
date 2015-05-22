@@ -14,5 +14,11 @@
     <Setting Name="auth" Type="System.Boolean" Scope="User">
       <Value Profile="(Default)">False</Value>
     </Setting>
+    <Setting Name="cachePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="appId" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3921202</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

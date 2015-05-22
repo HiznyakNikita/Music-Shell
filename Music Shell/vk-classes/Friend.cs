@@ -12,7 +12,7 @@ using Newtonsoft.Json.Linq;
 
 namespace Music_Shell
 {
-    class Friend
+    public class Friend
     {
         public string uid;
         public string first_name;

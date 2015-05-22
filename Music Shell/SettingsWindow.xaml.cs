@@ -37,6 +37,7 @@ namespace Music_Shell
             System.Windows.Forms.DialogResult result = folderBrowserDialog1.ShowDialog();
             if (result == System.Windows.Forms.DialogResult.OK)
             {
+                tbPath.Text = folderBrowserDialog1.SelectedPath;
                 Properties.Settings.Default.path = folderBrowserDialog1.SelectedPath;
             }
         }
@@ -50,11 +51,6 @@ namespace Music_Shell
         {
             if (Properties.Settings.Default.path != null)
                 tbPath.Text = Properties.Settings.Default.path;
-        }
-
-        private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            this.DragMove();
         }
     }
 }
